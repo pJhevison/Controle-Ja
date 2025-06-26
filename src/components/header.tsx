@@ -8,10 +8,10 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Logo } from './logo';
 
 const navLinks = [
-  { href: '#features', label: 'Features' },
-  { href: '#plans', label: 'Plans' },
-  { href: '#team', label: 'About Us' },
-  { href: '#contact', label: 'Contact' },
+  { href: '#features', label: 'Recursos' },
+  { href: '#plans', label: 'Planos' },
+  { href: '#team', label: 'Sobre Nós' },
+  { href: '#contact', label: 'Contato' },
 ];
 
 export default function Header() {
@@ -33,14 +33,14 @@ export default function Header() {
             ))}
           </nav>
           <div className="hidden md:flex items-center space-x-2">
-            <Button variant="ghost">Log In</Button>
-            <Button>Get Started</Button>
+            <Button variant="ghost">Entrar</Button>
+            <Button>Comece Agora</Button>
           </div>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" className="md:hidden">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Open Menu</span>
+                <span className="sr-only">Abrir Menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
@@ -62,8 +62,8 @@ export default function Header() {
                   ))}
                 </nav>
                 <div className="mt-auto p-4 border-t flex flex-col space-y-2">
-                  <Button variant="outline" onClick={() => setIsOpen(false)}>Log In</Button>
-                  <Button onClick={() => setIsOpen(false)}>Get Started</Button>
+                  <Button variant="outline" onClick={() => setIsOpen(false)}>Entrar</Button>
+                  <Button onClick={() => setIsOpen(false)}>Comece Agora</Button>
                 </div>
               </div>
             </SheetContent>

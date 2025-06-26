@@ -12,19 +12,19 @@ export default function Footer() {
               <Logo className="h-8 w-8 text-primary" />
               <span className="ml-2 text-xl font-bold">Controle Já</span>
             </div>
-            <p className="text-sm text-muted-foreground">The financial compass for the Amazonian entrepreneur.</p>
+            <p className="text-sm text-muted-foreground">A bússola financeira para o empreendedor amazônida.</p>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#features" className="hover:text-primary transition-colors">Features</Link></li>
-              <li><Link href="#plans" className="hover:text-primary transition-colors">Plans</Link></li>
-              <li><Link href="#team" className="hover:text-primary transition-colors">About Us</Link></li>
-              <li><Link href="#contact" className="hover:text-primary transition-colors">Contact</Link></li>
+              <li><Link href="#features" className="hover:text-primary transition-colors">Recursos</Link></li>
+              <li><Link href="#plans" className="hover:text-primary transition-colors">Planos</Link></li>
+              <li><Link href="#team" className="hover:text-primary transition-colors">Sobre Nós</Link></li>
+              <li><Link href="#contact" className="hover:text-primary transition-colors">Contato</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold mb-4">Connect With Us</h3>
+            <h3 className="font-semibold mb-4">Conecte-se Conosco</h3>
             <div className="flex space-x-4">
               <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="h-6 w-6" />
@@ -36,12 +36,12 @@ export default function Footer() {
               </a>
             </div>
              <p className="text-sm text-muted-foreground mt-4">
-              Manaus, Amazonas, Brazil
+              Manaus, Amazonas, Brasil
             </p>
           </div>
         </div>
         <div className="mt-8 border-t border-border pt-4 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Amazon Compass. All rights reserved.
+          &copy; {new Date().getFullYear()} Bússola Amazônia. Todos os direitos reservados.
         </div>
       </div>
     </footer>

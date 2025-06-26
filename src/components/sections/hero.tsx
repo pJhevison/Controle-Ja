@@ -8,32 +8,32 @@ export default function Hero() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none text-primary">
-              Your Financial Compass
+              Sua Bússola Financeira
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Controle Já is the financial management platform designed for freelancers, microentrepreneurs, and small businesses in the Northern Region of Brazil.
+              O Controle Já é a plataforma de gestão financeira desenhada para autônomos, microempreendedores e pequenas empresas da Região Norte do Brasil.
             </p>
           </div>
           <div className="space-x-4">
             <Button asChild size="lg">
-              <Link href="#plans">See Plans</Link>
+              <Link href="#plans">Ver Planos</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="#features">Learn More</Link>
+              <Link href="#features">Saiba Mais</Link>
             </Button>
           </div>
           <div className="mt-8 pt-8 border-t w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <h3 className="text-lg font-semibold">Mission</h3>
-              <p className="text-sm text-muted-foreground mt-2">To empower Amazonian entrepreneurs with simple, accessible financial tools.</p>
+              <h3 className="text-lg font-semibold">Missão</h3>
+              <p className="text-sm text-muted-foreground mt-2">Capacitar empreendedores amazônidas com ferramentas financeiras simples e acessíveis.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold">Vision</h3>
-              <p className="text-sm text-muted-foreground mt-2">To be the leading financial partner for small businesses in Northern Brazil.</p>
+              <h3 className="text-lg font-semibold">Visão</h3>
+              <p className="text-sm text-muted-foreground mt-2">Ser o principal parceiro financeiro para pequenas empresas no Norte do Brasil.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold">Values</h3>
-              <p className="text-sm text-muted-foreground mt-2">Simplicity, Regional Focus, and Support for Local Growth.</p>
+              <h3 className="text-lg font-semibold">Valores</h3>
+              <p className="text-sm text-muted-foreground mt-2">Simplicidade, Foco Regional e Apoio ao Crescimento Local.</p>
             </div>
           </div>
         </div>

@@ -4,23 +4,23 @@ import { Heart, Map, MessageSquareText, WifiOff } from 'lucide-react';
 const differentiators = [
   {
     icon: Map,
-    title: 'Regional Customization',
-    description: 'Developed in the Amazon, for the Amazon. We understand the local market nuances and challenges you face.',
+    title: 'Customização Regional',
+    description: 'Desenvolvido na Amazônia, para a Amazônia. Entendemos as nuances do mercado local e os desafios que você enfrenta.',
   },
   {
     icon: WifiOff,
-    title: 'Offline Support',
-    description: "No internet? No problem. Our app works offline, syncing your data whenever you're back online.",
+    title: 'Suporte Offline',
+    description: "Sem internet? Sem problemas. Nosso aplicativo funciona offline, sincronizando seus dados sempre que você estiver online novamente.",
   },
   {
     icon: MessageSquareText,
-    title: 'Easy Language',
-    description: 'We speak your language. No complicated financial jargon, just clear and simple guidance.',
+    title: 'Linguagem Fácil',
+    description: 'Falamos a sua língua. Sem jargões financeiros complicados, apenas orientações claras e simples.',
   },
   {
     icon: Heart,
-    title: 'Social Impact',
-    description: 'By using Controle Já, you support a local business committed to fostering entrepreneurship in our region.',
+    title: 'Impacto Social',
+    description: 'Ao usar o Controle Já, você apoia um negócio local comprometido em fomentar o empreendedorismo em nossa região.',
   },
 ];
 
@@ -28,9 +28,9 @@ export default function Differentiators() {
   return (
     <section id="why-us" className="container py-12 md:py-24">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why We're Different</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Por Que Somos Diferentes</h2>
         <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
-          We're more than just a tool. We're your partner in growth, with features designed for our reality.
+          Somos mais do que uma ferramenta. Somos seu parceiro no crescimento, com recursos projetados para a nossa realidade.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
