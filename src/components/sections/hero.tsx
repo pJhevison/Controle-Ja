@@ -25,15 +25,17 @@ export default function Hero() {
           <div className="mt-8 pt-8 border-t w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <h3 className="text-lg font-semibold">Missão</h3>
-              <p className="text-sm text-muted-foreground mt-2">Capacitar empreendedores amazônidas com ferramentas financeiras simples e acessíveis.</p>
+              <p className="text-sm text-muted-foreground mt-2">Impulsionar o empreendedorismo na Região Norte, capacitando autônomos e pequenos negócios com tecnologia financeira acessível.
+              </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Visão</h3>
-              <p className="text-sm text-muted-foreground mt-2">Ser o principal parceiro financeiro para pequenas empresas no Norte do Brasil.</p>
+              <p className="text-sm text-muted-foreground mt-2">Ser a principal plataforma de gestão financeira da Região Norte, reconhecida por transformar a vida de pequenos empreendedores com simplicidade e inovação
+              </p>
             </div>
             <div>
               <h3 className="text-lg font-semibold">Valores</h3>
-              <p className="text-sm text-muted-foreground mt-2">Simplicidade, Foco Regional e Apoio ao Crescimento Local.</p>
+              <p className="text-sm text-muted-foreground mt-2">Simplicidade, Foco Regional e Apoio ao Crescimento Local, Educar para Transformar, Ética e Transparência.</p>
             </div>
           </div>
         </div>

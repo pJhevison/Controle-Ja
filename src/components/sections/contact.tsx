@@ -27,7 +27,7 @@ const contactMethods = [
   {
     icon: MapPin,
     title: 'Nosso Escritório',
-    detail: 'Av. Djalma Batista, 1234, Manaus - AM',
+    detail: 'Av. Sete de setembro, 1234, Itacoatiara - AM',
     action: 'Obter Direções',
     href: '#',
   },

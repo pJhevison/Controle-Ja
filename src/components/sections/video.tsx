@@ -9,7 +9,7 @@ export default function Video() {
             <video 
               className="absolute top-0 left-0 w-full h-full object-cover"
               poster="https://placehold.co/1024x576.png"
-              src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              src="/tela1.mp4"
               autoPlay
               muted
               loop

@@ -36,7 +36,7 @@ export default function Footer() {
               </a>
             </div>
              <p className="text-sm text-muted-foreground mt-4">
-              Manaus, Amazonas, Brasil
+                Itacoatiara, Amazonas, Brasil
             </p>
           </div>
         </div>
