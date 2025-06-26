@@ -24,7 +24,7 @@ export default function Team() {
   return (
     <section id="team" className="container py-12 md:py-24">
       <div className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Nossa Equipe</h2>
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">FUNDADORES</h2>
         <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
           As mentes e corações por trás da Bússola Amazônia, dedicados a impulsionar o seu sucesso.
         </p>

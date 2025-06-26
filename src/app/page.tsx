@@ -1,4 +1,5 @@
 import Header from '@/components/header';
+import Video from '@/components/sections/video';
 import Hero from '@/components/sections/hero';
 import Problem from '@/components/sections/problem';
 import Features from '@/components/sections/features';
@@ -13,6 +14,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       <Header />
       <main className="flex-grow">
+        <Video />
         <Hero />
         <Problem />
         <Features />
