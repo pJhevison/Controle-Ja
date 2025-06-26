@@ -14,7 +14,7 @@ const teamMembers = [
     name: 'Rayane Lira',
     role: 'Co-fundadora e Diretora de Operações',
     bio: 'Especialista em negócios com foco no desenvolvimento regional. Rayane é a força motriz por trás da estratégia de mercado e do relacionamento com os clientes, garantindo que o Controle Já atenda às necessidades reais dos empreendedores.',
-    image: 'https://placehold.co/128x128.png',
+    image: '/ray.jpg',
     dataAiHint: 'woman portrait',
     fallback: 'RL',
   },

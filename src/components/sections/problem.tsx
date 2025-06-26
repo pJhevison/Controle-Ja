@@ -35,7 +35,7 @@ export default function Problem() {
         </div>
         <div className="relative h-80 md:h-full rounded-lg overflow-hidden">
           <Image 
-            src="https://placehold.co/600x400.png" 
+            src="/Gemini_Generated_Image_yt21cyt21cyt21cy.png" 
             alt="Empreendedor amazônida trabalhando" 
             layout="fill" 
             objectFit="cover"
