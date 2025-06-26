@@ -28,4 +28,3 @@
 - Tailwind CSS  
 - Lucide Icons  
 - Firebase (para possíveis integrações ou deploy)
-- Mídias armazenadas na pasta `/public`
