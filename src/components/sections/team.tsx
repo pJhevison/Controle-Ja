@@ -6,8 +6,7 @@ const teamMembers = [
     name: 'Pedro Jhevison',
     role: 'Cofundador e CEO',
     bio: 'Desenvolvedor e empreendedor apaixonado, Pedro criou o Controle Já para resolver as dores financeiras que via sua família e amigos enfrentarem ao administrar seus pequenos negócios em Manaus.',
-    image: 'https://placehold.co/200x200.png',
-    aiHint: 'man portrait',
+    image: '/pedro.jpg',
   },
   {
     name: 'Rayane Lira',
@@ -37,7 +36,7 @@ export default function Team() {
                   alt={`Retrato de ${member.name}`}
                   layout="fill"
                   objectFit="cover"
-                  data-ai-hint={member.aiHint}
+                  data-ai-hint={(member as any).aiHint}
                 />
               </div>
             </CardHeader>
